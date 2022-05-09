@@ -1,19 +1,34 @@
 {
-"parser": "babel-eslint",
-"env": {
-    "es6": true,
-    "browser": true,
-    "node": true
-},
-"rules": {
-    "linebreak-style": "off",
-    "semi": "off",
-    "quotes": "off",
-    "eol-last": "off",
-    "require-jsdoc": "off",
-    "space-before-blocks": "off",
-    "indent": "off"
-
-},
-"extends": ["eslint:recommended", "google"]
+    "parser": "babel-eslint",
+    "env": {
+        "es6": true,
+        "browser": true,
+        "node": true
+    },
+    "rules": {
+        "linebreak-style": "off",
+        "semi": "off",
+        "quotes": "off",
+        "eol-last": "off",
+        "require-jsdoc": "off",
+        "space-before-blocks": "off",
+        "indent": "off",
+        "comma-dangle": "off",
+        "no-trailing-spaces": "off",
+        "padded-blocks": "off",
+        "object-curly-spacing": "off",
+        "no-unused-vars": "off",
+        "no-multiple-empty-lines": "off",
+        "arrow-parens": "off",
+        "operator-linebreak": "off",
+        "no-debugger": "off",
+        "keyword-spacing": "off",
+        "max-len": "off",
+        "comma-spacing": "off",
+        "no-unreachable": "off"
+    },
+    "extends": [
+        "eslint:recommended",
+        "google"
+    ]
 }
